@@ -2,5 +2,10 @@
 :root {
     body {
         font-family: var(--font-family);
+
+        img {
+            height: 30px;
+            width: 30px;
+        }
     }
 }
