@@ -1,1 +1,6 @@
-
+// Use this file to create global SCSS changes such as fonts etc
+:root {
+    body {
+        font-family: var(--font-family);
+    }
+}
