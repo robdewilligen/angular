@@ -1,11 +1,22 @@
 // Use this file to create global SCSS changes such as fonts etc
 :root {
+    margin: 0;
+    padding: 0;
+
     body {
         font-family: var(--font-family);
 
         img {
             height: 30px;
             width: 30px;
+        }
+
+        button.primary {
+            padding: 10px;
+            border: solid 1px var(--primary-color);
+            background: var(--primary-color);
+            color: white;
+            border-radius: 8px;
         }
     }
 }
